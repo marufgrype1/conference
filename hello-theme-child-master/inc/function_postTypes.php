@@ -44,7 +44,7 @@ function conference_register_post_types() {
                 'parent_item_colon' => '',
 
             ),
-            'public' => false,
+            'public' => true,
             'publicly_queryable'    => false,
             'supports' => array( 'title','editor','thumbnail' ),
             'has_archive' => true,
