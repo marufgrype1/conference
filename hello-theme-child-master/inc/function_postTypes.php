@@ -5,8 +5,8 @@ function conference_register_post_types() {
     // CPT Options
         array(
             'labels' => array(
-                'name' => __('Conference'),
-                'singular_name' => __('Conference'),
+                'name' => __('ML Conference'),
+                'singular_name' => __('ML Conference'),
                 'add_new' => __('Add new'),
                 'add_new_item' => __('Add New Conference'),
                 'edit_item' => __('Edit Conference'),
